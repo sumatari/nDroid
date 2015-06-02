@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.st.accounts"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/common" >
+        <activity
+            android:name="com.st.accounts.ListAccounts"
+            android:label="AccMan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.st.accounts.AddAccount"
+            android:label="Add New Account" />
+        <activity
+            android:name="com.st.accounts.AddTransaction"
+            android:label="Add New Transaction" />
+        <activity
+            android:name="com.st.accounts.UpdateAccount"
+            android:label="Account Details" />
+        <activity
+            android:name="com.st.accounts.ListAccountTransactions"
+            android:label="Account Transactions" />
+        <activity
+            android:name="com.st.accounts.TransactionDetails"
+            android:label="Transaction Details" />
+        <activity
+            android:name="com.st.accounts.SearchTransactions"
+            android:label="Search Transactions" />
+        <activity
+            android:name="com.st.accounts.ListTransactions"
+            android:label="Transactions" />
+        <activity
+            android:name="com.st.accounts.ListRecentTransactions"
+            android:label="Recent Transactions" />
+    </application>
+
+</manifest>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:id="@+id/rel">
+
+    <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:orientation="horizontal">
+
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listAccounts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="107dp">
+    </ListView>
+
+    <Button
+        android:id="@+id/btnRecentTransactions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recent Trans"
+        android:onClick="recentTransactions"
+        android:layout_above="@+id/listAccounts"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="33dp" />
+
+    <Button
+        android:id="@+id/btnAddTransaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Trans"
+        android:onClick="addTransaction"
+        android:layout_marginLeft="23dp"
+        android:layout_alignTop="@+id/btnRecentTransactions"
+        android:layout_toRightOf="@+id/btnRecentTransactions" />
+
+    <Button
+        android:id="@+id/btnAddAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Account"
+        android:onClick="addAccount"
+        android:layout_marginLeft="25dp"
+        android:layout_alignTop="@+id/btnAddTransaction"
+        android:layout_toRightOf="@+id/btnAddTransaction" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Sumaira/AndroidStudioProjects/accountstracker1/app/src/main/res/layout/listaccounts.xml -->
