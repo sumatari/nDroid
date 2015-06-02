@@ -1,0 +1,5 @@
+C:\Users\Sumaira\AndroidStudioProjects\Doodle\app\build\intermediates\classes\debug
+C:\Users\Sumaira\AndroidStudioProjects\Doodle\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-db2a039a4fe7b8a69e2e880c12daa2c39a6cca5f.jar
+C:\Users\Sumaira\AndroidStudioProjects\Doodle\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-8bb2637b316cdd479b1bb27818216ed71514cbd2.jar
+C:\Users\Sumaira\AndroidStudioProjects\Doodle\app\build\intermediates\pre-dexed\debug\classes-c85d33835deb915b50e1b56cdb8f3da1dfe6d863.jar
+C:\Users\Sumaira\AndroidStudioProjects\Doodle\app\build\intermediates\pre-dexed\debug\classes-d2cf1070cd4401900febb1288ba71a7de98e48c1.jar

@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sa.MainActivity" >
+
+    <item
+        android:id="@+id/draw"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="DRAW"/>
+    <item
+        android:id="@+id/erase"
+        android:icon="@android:drawable/ic_input_delete"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="ERASE"/>
+    <item
+        android:id="@+id/Save"
+        android:icon="@android:drawable/ic_menu_save"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="SAVE"/>
+    <item
+        android:id="@+id/DELETE"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="DELETE"/>
+
+</menu><!-- From: file:/C:/Users/Sumaira/AndroidStudioProjects/Doodle/app/src/main/res/menu/main.xml -->
